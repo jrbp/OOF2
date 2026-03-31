@@ -1,0 +1,49 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1774709303,
+        "narHash": "sha256-D3Q07BbIA2KnTcSXIqqu9P586uWxN74zNoCH3h2ESHg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "oofcanvas": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1774980571,
+        "narHash": "sha256-SlAzSv0+BEihloI5vWMYWWZF4093P1q9FhrNDkB0bsk=",
+        "ref": "nix",
+        "rev": "735aab2510122b04cc98880317cb5637f64f11b7",
+        "revCount": 500,
+        "type": "git",
+        "url": "file:///home/jrb26/git/oofcanvas"
+      },
+      "original": {
+        "ref": "nix",
+        "type": "git",
+        "url": "file:///home/jrb26/git/oofcanvas"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "oofcanvas": "oofcanvas"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
