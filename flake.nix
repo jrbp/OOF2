@@ -44,7 +44,8 @@
           wrapGAppsHook3
         ];
         buildInputs = with pkgs; [
-          openblas
+          blas
+          lapack
           oofCanvasPkgs.oofCanvas
           pythonEnv
           python3Packages.pygobject3 # pkgconf needs to see this (not just python)
