@@ -29,12 +29,12 @@
         "rev": "735aab2510122b04cc98880317cb5637f64f11b7",
         "revCount": 500,
         "type": "git",
-        "url": "file:///home/jrb26/git/oofcanvas"
+        "url": "ssh://git@gitlab.nist.gov/john.bonini/oofcanvas.git"
       },
       "original": {
         "ref": "nix",
         "type": "git",
-        "url": "file:///home/jrb26/git/oofcanvas"
+        "url": "ssh://git@gitlab.nist.gov/john.bonini/oofcanvas.git"
       }
     },
     "root": {

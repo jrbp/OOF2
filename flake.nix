@@ -4,8 +4,9 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     oofcanvas = {
-      #url = "gitlab:john.bonini/oofcanvas/nix?host=gitlab.nist.gov"; # ugh it's private
-      url = "git+file:///home/jrb26/git/oofcanvas?ref=nix"; # temporary hack
+      #url = "gitlab:john.bonini/oofcanvas/nix?host=gitlab.nist.gov"; # private so http doesn't work
+      #url = "git+file:///home/jrb26/git/oofcanvas?ref=nix"; # temporary hack
+      url = "git+ssh://git@gitlab.nist.gov/john.bonini/oofcanvas.git?ref=nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
