@@ -4,9 +4,8 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     oofcanvas = {
-      # url = "github://usnistgov/oofcanvas.git"; # what it shoud be after repo is public
-      # url = "git+file:///home/jrb26/git/oofcanvas?ref=nix"; # temporary hack for local repo
-      url = "git+ssh://git@gitlab.nist.gov/john.bonini/oofcanvas.git?ref=nix"; # works as long as keys are setup
+      # url = "github:usnistgov/oofcanvas"; # what it shoud be after merge
+      url = "github:jrbp/oofcanvas/nix"; # testing nix feature branch
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
