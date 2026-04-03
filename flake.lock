@@ -23,11 +23,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1774984364,
-        "narHash": "sha256-SlAzSv0+BEihloI5vWMYWWZF4093P1q9FhrNDkB0bsk=",
+        "lastModified": 1775229359,
+        "narHash": "sha256-RRcowabMEfapnVGMV9+kxZB4+GYYKg+Vzu/r4ybVW74=",
         "ref": "nix",
-        "rev": "fe4e1b2c09ad6b2094858be239014cfea61b3ad8",
-        "revCount": 502,
+        "rev": "715fad87574ba7e983cf8fa4e86f51770115b777",
+        "revCount": 504,
         "type": "git",
         "url": "ssh://git@gitlab.nist.gov/john.bonini/oofcanvas.git"
       },
