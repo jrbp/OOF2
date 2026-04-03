@@ -9,3 +9,5 @@ build/
 build-*
 builddir-*
 SCRATCH/*
+result
+result-*
