@@ -54,12 +54,6 @@
           oofCanvasPkgs.oofCanvas
           pythonEnv
           python3Packages.pygobject3 # pkgconf needs to see this (not just python)
-          ## Do we need the following here?
-          # gtk3
-          # cairomm
-          # pango
-          # gobject-introspection
-          # glib
         ];
         meta = with pkgs.lib; {
           description = "OOF2: Object Oriented for Finite Elements 2D version.";
