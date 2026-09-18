@@ -59,6 +59,7 @@
           description = "OOF2: Object Oriented for Finite Elements 2D version.";
           license = licenses.nistSoftware;
           platforms = platforms.linux;
+          mainProgram = "oof2";
         };
       };
       oof2Python = let
